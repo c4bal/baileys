@@ -1,6 +1,6 @@
 {
    "name": "@c4bal/baileys",
-   "version": "1.12.0",
+   "version": "1.12.1",
    "description": "A simple fork of Baileys for WhatsApp automation",
    "main": "lib/index.js",
    "type": "module",
