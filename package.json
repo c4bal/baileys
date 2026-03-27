@@ -1,0 +1,76 @@
+{
+   "name": "@c4bal/baileys",
+   "version": "0.1.15",
+   "description": "A simple fork of Baileys for WhatsApp automation",
+   "main": "lib/index.js",
+   "type": "module",
+   "scripts": {
+      "preinstall": "node ./engine-requirements.js"
+   },
+   "engines": {
+      "node": ">=20.0.0"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/c4bal/baileys.git"
+   },
+   "files": [
+      "lib/**/*",
+      "WAProto/**/*",
+      "engine-requirements.js"
+   ],
+   "keywords": [
+      "automation",
+      "baileys",
+      "baileys-fork",
+      "baileys-mod",
+      "js-whatsapp",
+      "multi-device",
+      "whatsapp",
+      "whatsapp-api",
+      "whatsapp-bot",
+      "whatsapp-chat",
+      "whatsapp-group",
+      "whatsapp-web"
+   ],
+   "homepage": "https://github.com/c4bal/baileys#readme",
+   "author": "WhiskeySockets",
+   "license": "MIT",
+   "dependencies": {
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "@cacheable/node-cache": "^1.4.0",
+      "@hapi/boom": "^9.1.3",
+      "async-mutex": "^0.5.0",
+      "fflate": "^0.8.2",
+      "libsignal": "github:WhiskeySockets/libsignal-wasm#master",
+      "lru-cache": "^11.2.6",
+      "music-metadata": "^11.7.0",
+      "p-queue": "^9.1.0",
+      "pino": "^9.6.0",
+      "protobufjs": "^7.5.4",
+      "whatsapp-rust-bridge": "0.5.3",
+      "ws": "^8.19.0"
+   },
+   "peerDependencies": {
+      "@napi-rs/image": "~1.12.0",
+      "audio-decode": "^2.2.3",
+      "jimp": "^1.6.0",
+      "link-preview-js": "^3.0.0",
+      "sharp": "*"
+   },
+   "peerDependenciesMeta": {
+      "@napi-rs/image": {
+         "optional": true
+      },
+      "audio-decode": {
+         "optional": true
+      },
+      "jimp": {
+         "optional": true
+      },
+      "link-preview-js": {
+         "optional": true
+      }
+   },
+   "packageManager": "yarn@4.9.2"
+}
