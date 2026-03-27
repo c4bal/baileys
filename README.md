@@ -55,6 +55,14 @@ npm i @c4bal/baileys@latest
 npm i github:c4bal/baileys
 ```
 
+### Git dep preparation error?
+```json
+# GitHub
+"dependencies": {
+   "@c4bal/baileys": "https://github.com/c4bal/baileys/releases/download/baileys/main.tar.gz"
+}
+```
+
 #### Import (ESM & CJS)
 
 ```javascript
